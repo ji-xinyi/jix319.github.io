@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+body {
+    background-color: #1B52BC;
+    /*linear-gradient(180deg, rgba(129, 12, 12, 0.95) 0%, rgba(27, 82, 188, 0.72) 56.9%, rgba(34, 9, 58, 0.83) 100%);*/
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    z-index:-1;
+}
+
+h1{
+    position: absolute;
+    width: 131px;
+    height: 154px;
+    left: 122px;
+    top: 40px;
+    align-items: top;
+
+    font-family: 'Roslindale';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 128px;
+    line-height: 154px;
+/* identical to box height */
+    color: #FFFFFF;
+}
+
+marquee {
+    /* Welcome to Xinyi’s Github Repository! */
+    position: absolute;
+    width: 1626px;
+    height: 115px;
+    left: 122px;
+    top: 241px;
+
+    font-family: 'Roslindale';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 96px;
+    line-height: 115px;
+
+color: #FFFFFF;
+
+}
+
