@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <title>Week 2: Html Structure Analysis</title>
+
+    <!-- Adds: an internal stylesheet. -->
+    <style>
+      section { margin-top: 120px; }
+      #table-of-contents { margin: 80px 0; }
+      .anchor-offset { scroll-margin-top: 40px; }
+      .grid-col-2 {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-column-gap: 40px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      Core 2 Interaction: Lab –&nbsp;<em>Week 2: HTML Structure Analysis</em>
+    </header>
+    <section id="table-of-contents">
+      <ul>
+        <li><a href="#screenshot">Screenshot ↓</a></li>
+        <li><a href="#analysis">Analysis ↓</a></li>
+        <li><a href="#questions">Questions ↓</a></li>
+      </ul>
+    </section>
+    <section id="screenshot">
+      <h2>Screenshot</h2>
+      <!-- TODO: Add image tag with src attribute references your screenshot. -->
+      <img src="./imgs/lab-wk2-assignment.png" alt="screenshot of homepage of canal st market with inspector tools open">
+    </section>
+    <section id="analysis">
+      <h2>Analysis</h2>
+      <div class="grid-col-2">
+        <div>
+          <pre id="analysis--simplified-html">
+          <!-- TODO: Replace with your version of a simplified structure -->
+          <ul>
+            <li>div id:container class.group</li>
+            <ul>
+              <li>::before</li>
+            </ul>
+            <li>div class: loader</li>
+            <li>header id: header</li>
+            <ul>
+              <li>class:logo js-logo</li>
+              <li>nav id: main-navigation class.main-navigation</li>
+              <li>nav class: transition-cover js transition-cover </li>
+                <ul>
+                  <li>div class: transiiton-cover__tab js-cover-tab open id:0</li>
+                  <li>div class: transiiton-cover__tab js-cover-tab open id:1</li>
+                  <li>div class: transiiton-cover__tab js-cover-tab open id:2</li>
+                  <li>div class: transiiton-cover__tab js-cover-tab open id:3</li>
+                </ul>
+              <li>div class: vendor js-vendor</li>
+                <ul>
+                  <li>div class: vendor-card js-vendor-card</li>
+                    <ul>
+                      <li>div class: vendor-hero</li>
+                      <li>div class: vendor-grid</li>
+                      <li>div class: vendor-form</li>
+                    </ul>
+                </ul>
+            <ul>
+              <li>div class: mobile-nav-toggle mobile-only js-mobile-website-nav-toggle</li>
+                <ul>
+                  <li>div class: mobile-nav-toggle__open js-mobile-nav-open</li>
+                </ul>
+              <li>div class: mobile-nav-toggle__close js-mobile-nav-close</li>
+            </ul>    
+            <ul>
+              <li>div class: mobile-nav js-mobile-nav</li>
+                <ul>
+                  <li>mobile-nav__blocks</li>
+                  <li>mobile_nav__info js-mobile-nav-info</li>
+                </ul>
+            </ul> 
+              <li>main id: main</li>   
+                <ul>
+                  <li>div id: view-home</li>
+                </ul> 
+              <li>div id: view-home</li>
+              <li>div id: global class:group</li>
+               <ul>
+                <li>::after</li>
+               </ul>
+            </ul>
+          </ul>
+          </pre>
+        </div>
+        <div id="analysis--text">
+          <!-- TODO: <p>Write a response!</p> -->
+          <a href="https://canalstreet.market/">Canal St Market</a>
+          <p>Canal St Market is a community space that has retail and food vendors, located in Manhattan's Chinatown. I chose this website as I thought that the tab structure and interactive elements were interesting, and I was also curious as to how the integrated the few elements that were traditional chinese characters.</p>
+          <p>The website seems to use <em>div tags</em> throughout the page to contain its information and classifications using extremely specific selectors (both class and id) to indicate specific functions and effects intended on the page.</p>
+          <br>
+          <p>One thing I thought was interesting was how the tabs on the right (with the classifications <em>
+            div class: transiiton-cover__tab js-cover-tab open id:1</em>) did not lead to a new page being opened, but I was able to seamlessly navigate back to the original positioning by simply clicking on the white area demarcating the home tab.</p>
+          <br>
+          <p>Another thing I found interesting was that when I toggled the screen to that of a mobile device, the tabs on the right disappeared. Some of the content that was on these tabs simply were added under the image in the home screen.</p>
+          <br>
+          <p>Upon more exploration, the website seems to be a single-page website, with only one page grounding all its content. This somewhat explains the specificity of selectors to me, but also makes me wonder why they opted for such a format instead of a multi-page navigational system. In addition, most of the elements had inline styles and javascript on the bottom of the page, which I thought was a <em>choice</em>, given what we were taught in studio (both this semester and the last) about linking external style sheets rather than doing CSS inline. </p>
+        </div>
+      </div>
+    </section>
+    <section id="analysis--questions">
+      <h2>Questions</h2>
+      <ul>
+        <li>
+          <!-- TODO: Ask some questions! -->
+          Why was there inline style and JS in the document? How or why might someone choose to do it this way rather than linking them separately?
+        </li>
+        <img src="./imgs/assignment2-question.png" alt="a section of code that was commented out on the site">
+        <li>
+          Why was there some lines of code commented out on the website rather than being deleted from the page? 
+        </li>
+      </ul>
+    </section>
+  </body>
+</html>
