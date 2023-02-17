@@ -1,0 +1,60 @@
+@charset "UTF-8";
+
+html {
+    /* Night */
+}
+body{
+    background: linear-gradient(180deg, #16040C 1.56%, #0D0639 39.27%, rgba(60, 6, 79, 0.51) 95%, rgba(69, 33, 12, 0.42) 100%);
+height: 100%;
+width: 100%;
+position: static;
+}
+@font-face {
+    font-family: 'Sporting Grotesque_Bold';
+    src:    url(media/fonts/Sporting_Grotesque-Bold_web.eot);
+    src:    
+            url(media/fonts/Sporting_Grotesque-Bold_web.woff) format('woff'),
+            url(media/fonts/Sporting_Grotesque-Bold_web.woff2) format('woff2'),
+            url(media/fonts/Sporting_Grotesque-Bold_web.ttf) format('truetype'),
+            url(media/fonts/Sporting_Grotesque-Bold_web.svg) format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1 {
+    color: aliceblue;
+    font-family: freight-display-pro, serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 9em;
+    font-weight: normal;
+    font-style: normal;
+}
+
+.on { 
+
+}
+
+.beginnings {
+
+}
+
+h2 {
+    color: white;
+    font-family:'Sporting Grotesque_Bold';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 4em;
+    line-height: 100%;
+    text-align: right;
+}
+
+a {
+    color: white;
+    font-family: freight-display-pro, serif;
+    font-weight: 500;
+    font-style: italic;
+    font-size: 3em;
+    text-align: right;
+
+}

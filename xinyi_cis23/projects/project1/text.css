@@ -1,0 +1,16 @@
+@font-face {
+    font-family: 'Sporting Grotesque_Regular';
+    src:    url(/media/fonts/Sporting_Grotesque-Regular_web.eot);
+    src:  
+            url(/media/fonts/Sporting_Grotesque-Regular_web.woff) format('woff');
+            url(/media/fonts/Sporting_Grotesque-Regular_web.woff2) format('woff2');
+            font-weight: normal;
+            font-style: normal;
+}
+
+
+h1{
+font-family:'Sporting Grotesque_Regular';
+color: aliceblue;
+font-size: 2em;
+}
