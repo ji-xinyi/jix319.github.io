@@ -1,0 +1,16 @@
+@charset "UTF-8";
+body{
+    background: radial-gradient(88.03% 44.71% at 41.32% 38.38%, rgba(254, 194, 76, 0.6) 0%, rgba(239, 160, 68, 0.174) 77.16%), linear-gradient(0deg, #B0D9F7 5.17%, #FFC9AA 36.77%, #93BEFF 100%);
+    width: 100vw;
+    background-attachment: scroll;
+}
+
+section{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2vh;
+    max-height: 5vh;
+  }

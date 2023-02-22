@@ -31,13 +31,6 @@ h1 {
     font-style: normal;
 }
 
-.on { 
-
-}
-
-.beginnings {
-
-}
 
 h2 {
     color: white;
@@ -57,4 +50,9 @@ a {
     font-size: 3em;
     text-align: right;
 
+}
+
+a:hover {
+    color: aliceblue;
+    
 }

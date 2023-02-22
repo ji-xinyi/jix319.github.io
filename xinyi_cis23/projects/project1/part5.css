@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+body{
+    background: radial-gradient(53.3% 34.25% at 50% 65.75%, rgba(255, 255, 255, 0.6) 0%, rgba(176, 217, 247, 0.39) 100%), radial-gradient(143.25% 33.2% at 43.4% 44.34%, rgba(243, 153, 102, 0.6) 0%, rgba(255, 197, 111, 0.252) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */, linear-gradient(0deg, #80C9FF 0%, #82CAFF 25.48%, #69A1F7 100%);
+    width: 100vw;
+background-attachment: scroll;
+}
+
+section{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2vh;
+    max-height: 5vh;
+  }

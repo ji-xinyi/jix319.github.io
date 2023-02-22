@@ -1,24 +1,80 @@
 @charset "UTF-8";
-html {
-    background: radial-gradient(53.3% 34.25% at 50% 65.75%, rgba(255, 255, 255, 0.5) 0%, rgba(176, 217, 247, 0.325) 100%), 
-    radial-gradient(35.09% 17.83% at 42.92% 21.55%, rgba(249, 249, 249, 0.6) 0%, rgba(239, 160, 68, 0.174) 77.16%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */, 
-    linear-gradient(0deg, #637CD6 11.92%, rgba(176, 217, 247, 0.62) 74.76%, #FFC56F 100%);
-    height: 100%;
-}
-body { 
-    /* Ellipse 7 */
-width: 1056px;
-height: 427px;
-left: 446px;
-top: 518px;
 
-background: radial-gradient(50% 50% at 50% 50%, rgba(255, 255, 255, 0.75) 0%, rgba(204, 204, 204, 0) 100%);
+body  { 
+   background: linear-gradient(0deg, rgba(111, 57, 136, 0.74) 0%, #ED6316 14.55%, rgba(255, 197, 111, 0.87) 30.49%, #6387BD 85.52%);
+   width: 100vw;
+   background-attachment: scroll;
 }
-.hide {
-    display: none;
-  }
-      
-.mmydivhover + .hide {
-    display: block;
-    color: red;
-  }
+
+section{
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2vh;
+  max-height: 5vh;
+}
+.grid-container{
+  display:grid;
+  padding-left: 80px;
+  padding-right: 80px;
+  grid-template-columns:repeat(8, 1fr);
+  grid-template-rows:min-content;
+}
+
+.word{
+  grid-row: 1/1;  
+  grid-column: 1/ span 9;
+  text-align: left;
+}
+
+#act{
+  text-align: right;
+  font-size: larger;
+}
+
+.act1{
+  grid-row: 2/2;
+  grid-column: 3/ span 9;
+}
+
+#breath{
+  grid-row: 3/3;
+  grid-column: 2/span 9;
+}
+
+#thought{
+  grid-row: 5/5;
+  grid-column: 4/span 9;
+}
+
+#love{
+  grid-row: 6/6;
+  grid-column: 1/span 9;
+}
+
+.tricolon{
+  grid-row: 7/7;
+  grid-column: 1/span 9;
+  text-align: right;
+}
+
+.theatre{
+  grid-row: 8/8;
+  grid-column: 1/span 9;
+  text-align: left;
+}
+
+#quote{
+  grid-row: 9/9;
+  grid-column: 2/span 9;
+}
+
+em{
+  color: white;
+    font-family: freight-display-pro, serif;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 3em;
+}

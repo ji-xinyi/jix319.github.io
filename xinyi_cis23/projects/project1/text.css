@@ -1,16 +1,97 @@
 @font-face {
     font-family: 'Sporting Grotesque_Regular';
-    src:    url(/media/fonts/Sporting_Grotesque-Regular_web.eot);
-    src:  
-            url(/media/fonts/Sporting_Grotesque-Regular_web.woff) format('woff');
-            url(/media/fonts/Sporting_Grotesque-Regular_web.woff2) format('woff2');
+    src:    url(./media/fonts/Sporting_Grotesque-Regular_web.eot);
+    src:    url(./media/fonts/Sporting_Grotesque-Regular_web.woff) format('woff');
+    src: url(./media/fonts/Sporting_Grotesque-Regular_web.woff2) format('woff2');
+
             font-weight: normal;
             font-style: normal;
 }
-
+@font-face {
+    font-family: 'Sporting Grotesque_Bold';
+    src:    url(./media/fonts/Sporting_Grotesque-Bold_web.eot);
+    src:    
+            url(./media/fonts/Sporting_Grotesque-Bold_web.woff) format('woff'),
+            url(./media/fonts/Sporting_Grotesque-Bold_web.woff2) format('woff2'),
+            url(./media/fonts/Sporting_Grotesque-Bold_web.ttf) format('truetype'),
+            url(./media/fonts/Sporting_Grotesque-Bold_web.svg) format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
 
 h1{
-font-family:'Sporting Grotesque_Regular';
-color: aliceblue;
-font-size: 2em;
+    font-family:'Sporting Grotesque_Regular';
+    color: aliceblue;
+    font-size: 2em;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
 }
+
+h2{
+    color: white;
+    font-family: freight-display-pro, serif;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 2em;
+
+}
+
+.author{
+    font-family:'Sporting Grotesque_Regular';
+    color: white;
+    font-size: 2em;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+}
+
+.home{
+    font-family:'Sporting Grotesque_Regular';
+    color: white;
+    font-size: 2em;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+}
+
+.daytime{
+    color: white;
+    font-family: freight-display-pro, serif;
+    font-weight: 500;
+    font-style: italic;
+    font-size: 3em;
+}
+
+.foot{
+    font-family:'Sporting Grotesque_Regular';
+    color: white;
+    font-size: 2em;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%; 
+}
+
+/* unvisited link */
+a:link {
+    color: white;
+    text-decoration: none;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: white;
+    text-decoration: none;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: D65127;
+    text-decoration: none;
+  }
+  
+  /* selected link */
+  a:active {
+    color: white;
+    text-decoration: none;
+  }

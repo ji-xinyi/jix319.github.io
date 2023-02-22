@@ -1,0 +1,149 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'Sporting Grotesque_Regular';
+    src:    url(./media/fonts/Sporting_Grotesque-Regular_web.eot);
+    src:    url(./media/fonts/Sporting_Grotesque-Regular_web.woff) format('woff');
+    src: url(./media/fonts/Sporting_Grotesque-Regular_web.woff2) format('woff2');
+
+            font-weight: normal;
+            font-style: normal;
+}
+
+@font-face {
+    font-family: 'Sporting Grotesque_Bold';
+    src:    url(./media/fonts/Sporting_Grotesque-Bold_web.eot);
+    src:    
+            url(./media/fonts/Sporting_Grotesque-Bold_web.woff) format('woff'),
+            url(./media/fonts/Sporting_Grotesque-Bold_web.woff2) format('woff2'),
+            url(./media/fonts/Sporting_Grotesque-Bold_web.ttf) format('truetype'),
+            url(./media/fonts/Sporting_Grotesque-Bold_web.svg) format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+   background: radial-gradient(25.67% 41.46% at 50% 22.51%, rgba(255, 223, 162, 0.6) 0%, rgba(141, 0, 0, 0.168) 100%), linear-gradient(270deg, rgba(176, 217, 247, 0.62) 0%, #FF8863 19.84%, #DC5B13 45.76%, rgba(255, 197, 111, 0.87) 71.67%, #689AE6 91.8%);
+   background-image: url(./media/imgs/begin-poem-background.png);
+   position:absolute;
+  height: fit-content;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-attachment:scroll;
+  overflow-x: visible;
+  background-size: auto;
+}
+
+::-webkit-scrollbar {
+    display:none;
+  }
+
+/* .horizontal-scroll-wrapper{
+    position:absolute;
+    display:block;
+    top:0;
+    left:0;
+    width:auto;
+    height:100vh;
+    margin:0;
+    overflow-y:auto;
+    overflow-x:hidden;
+    transform-origin:right top;
+  } */
+
+  .container {
+    display: grid;
+    /*grid-template-columns: repeat(24, 1fr);*/
+    grid-auto-columns: calc(100% - 920px);
+    grid-template-rows: repeat(12, 7%);
+    grid-gap: 0px;
+    overflow-x: auto;
+}
+
+/*section{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    justify-items: flex-end;
+    padding: 2vh;
+    max-height: 5vh;
+   
+  }*/
+
+h1{
+    font-family: freight-display-pro, serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 60px;
+    color:white;
+}
+
+h2{
+    font-family: freight-display-pro, serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 48px;
+    color:white;
+}
+
+#intro {
+    grid-column: 2/span 8;
+    grid-row: 2/ span 4;
+    font-size: 1em;
+}
+
+#phrase{
+    grid-column:3/ span 5 ;
+    grid-row: 5/5;
+}
+
+#line{
+    grid-column:5/ span 6 ;
+    grid-row: 6/6;
+}
+
+#scrap{
+    grid-column:8/ span 12;
+    grid-row: 9/9;     
+}
+
+#rhythm{
+    grid-column:10/ span 12 ;
+    grid-row: 4/4;     
+}
+
+#image{
+    grid-column:13/ span 15 ;
+    grid-row: 6/6;     
+}
+
+#seen{
+    grid-column:15/ span 19 ;
+    grid-row: 10/10;     
+}
+
+#heard{
+    grid-column:19/ span 21 ;
+    grid-row: 7/7;     
+}
+
+#witnessed{
+    grid-column:22/ span 25 ;
+    grid-row: 3/3;     
+}
+
+#imagined{
+    grid-column:23/ span 25 ;
+    grid-row: 8/8;     
+}
+
+.next{ 
+    grid-column: 30/span 35;
+    grid-row: 5/5;
+    font-family: freight-display-pro, serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 72px;
+    color:white;
+}
