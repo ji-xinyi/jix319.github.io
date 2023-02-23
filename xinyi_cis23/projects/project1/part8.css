@@ -29,8 +29,9 @@ section{
     text-align: left;
 }
 
-#quote{
+#henstein{
     text-align: right;
+    line-break: 300%;
 }
 
 .poems-begin {
