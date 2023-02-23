@@ -15,3 +15,50 @@ section{
     padding: 2vh;
     max-height: 5vh;
   }
+
+  .grid-container{
+    display:grid;
+    padding-left: 8%;
+    padding-right: 8%;
+    grid-template-columns:repeat(8, 1fr);
+    grid-template-rows: min-content;
+}
+
+.miss{
+    grid-column: 1/ span 9;
+    grid-row: 1/1;
+}
+
+.rectangle{
+    height: 100%;
+    width: 100%;
+    opacity: 0%;
+}
+
+.end{
+    grid-column: 1/span 9;
+    grid-row:3/3;
+    text-align: center;
+    font-size: 4em;
+    color: #000;
+}
+
+.thrill{
+    grid-column: 1/span 9;
+    grid-row:5/5;
+    text-align: left;
+}
+.poem-ending{
+    grid-column: 1/span 9;
+    grid-row: 6/6;
+    text-align: left;
+}
+
+#why{
+    text-align: right; 
+}
+
+#wonderful{
+    text-align: right;
+}
+

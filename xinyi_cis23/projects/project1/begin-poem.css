@@ -147,3 +147,30 @@ h2{
     font-size: 72px;
     color:white;
 }
+
+/* unvisited link */
+a:link {
+    color: white;
+    text-decoration: none;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: white;
+    text-decoration: none;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: D65127;
+    font-family: freight-display-pro, serif;
+    font-weight: 500;
+    font-style: italic;
+    font-size: 2em;
+  }
+  
+  /* selected link */
+  a:active {
+    color: white;
+    text-decoration: none;
+  }

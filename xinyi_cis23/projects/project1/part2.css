@@ -69,6 +69,8 @@ section{
 #quote{
   grid-row: 9/9;
   grid-column: 2/span 9;
+  font-size: 3em;
+  line-height: 120%;
 }
 
 em{
@@ -76,5 +78,12 @@ em{
     font-family: freight-display-pro, serif;
     font-weight: 300;
     font-style: italic;
-    font-size: 3em;
+    font-size: 2em;
+}
+
+#end{
+  grid-row: 10/10;
+  grid-column: 1/span 9;
+  text-align: right;
+  font-size: larger;
 }

@@ -119,6 +119,11 @@ main{
 }
 
 .fruit{
+    color: white;
+    font-family: freight-display-pro, serif;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 2em;
     grid-column: 1/ span 9;  
     grid-row: 14/14;
 }

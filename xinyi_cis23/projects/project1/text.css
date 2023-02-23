@@ -33,7 +33,7 @@ h2{
     font-family: freight-display-pro, serif;
     font-weight: 300;
     font-style: italic;
-    font-size: 2em;
+    font-size: 3em;
 
 }
 
@@ -58,7 +58,7 @@ h2{
 .daytime{
     color: white;
     font-family: freight-display-pro, serif;
-    font-weight: 500;
+    font-weight: 300;
     font-style: italic;
     font-size: 3em;
 }
@@ -87,7 +87,10 @@ a:link {
   /* mouse over link */
   a:hover {
     color: D65127;
-    text-decoration: none;
+    font-family: freight-display-pro, serif;
+    font-weight: 500;
+    font-style: italic;
+    font-size: 2em;
   }
   
   /* selected link */
@@ -95,3 +98,9 @@ a:link {
     color: white;
     text-decoration: none;
   }
+
+  .speak{
+    font-family: freight-display-pro, serif;
+    font-style: italic;
+    font-size: 3em;
+}

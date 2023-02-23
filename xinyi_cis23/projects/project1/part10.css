@@ -5,7 +5,7 @@ body{
     width: 100vw;
     background-attachment: scroll;
     width: 100vw;
-background-attachment: scroll;
+    background-attachment: scroll;
 }
 
 section{
@@ -16,4 +16,165 @@ section{
     align-items: center;
     padding: 2vh;
     max-height: 5vh;
+  }
+
+.grid-container{
+    display:grid;
+    padding-left: 8%;
+    padding-right: 8%;
+    grid-template-columns:repeat(8, 1fr);
+    grid-template-rows: min-content;
+}
+
+#damp{
+    color: white;
+    font-family: freight-display-pro, serif;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 2em;
+    grid-column: 1/span 9;
+    grid-row: 1/1;
+    text-align: right;
+}
+
+#rectangle1{
+    height: 500px;
+    width: 100%;
+    opacity: 0%;
+    grid-column: 1/ span 9;
+    grid-row: 2/2;
+}
+
+#memory{
+    color: white;
+    font-family: freight-display-pro, serif;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 3em;
+    grid-column: 1/span 9;
+    grid-row: 3/3;
+    text-align: center;
+}
+
+#rectangle2{
+    height: 900px;
+    width: 100%;
+    opacity: 0%;
+    grid-column: 1/ span 9;
+    grid-row: 4/4;
+}
+
+#dickinson{
+    font-family:'Sporting Grotesque_Regular';
+    color: white;
+    font-size: 1.5em;
+    font-style: normal;
+    font-weight: 400;
+    text-align: left;
+    grid-row: 5/5;
+    grid-column: 1/ span 9;
+
+}
+
+
+#rectangle3{
+    height: 900px;
+    width: 100%;
+    opacity: 0%;
+    grid-column: 1/ span 9;
+    grid-row: 6/6;
+}
+
+#was{
+    font-family: freight-display-pro, serif;
+font-weight: 300;
+font-style: italic;
+    color: white;
+    font-size: 4em;
+    grid-column: 1/span 9;
+    grid-row: 7/7;
+    text-align: right;
+
+}
+
+@font-face {
+    font-family: 'Sporting Grotesque_Regular';
+    src:    url(./media/fonts/Sporting_Grotesque-Regular_web.eot);
+    src:    url(./media/fonts/Sporting_Grotesque-Regular_web.woff) format('woff');
+    src: url(./media/fonts/Sporting_Grotesque-Regular_web.woff2) format('woff2');
+
+            font-weight: normal;
+            font-style: normal;
+}
+@font-face {
+    font-family: 'Sporting Grotesque_Bold';
+    src:    url(./media/fonts/Sporting_Grotesque-Bold_web.eot);
+    src:    
+            url(./media/fonts/Sporting_Grotesque-Bold_web.woff) format('woff'),
+            url(./media/fonts/Sporting_Grotesque-Bold_web.woff2) format('woff2'),
+            url(./media/fonts/Sporting_Grotesque-Bold_web.ttf) format('truetype'),
+            url(./media/fonts/Sporting_Grotesque-Bold_web.svg) format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+.author{
+    font-family:'Sporting Grotesque_Regular';
+    color: white;
+    font-size: 2em;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+}
+
+.home{
+    font-family:'Sporting Grotesque_Regular';
+    color: white;
+    font-size: 2em;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+}
+
+.daytime{
+    color: white;
+    font-family: freight-display-pro, serif;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 3em;
+}
+
+.foot{
+    font-family:'Sporting Grotesque_Regular';
+    color: white;
+    font-size: 2em;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%; 
+}
+
+/* unvisited link */
+a:link {
+    color: white;
+    text-decoration: none;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: white;
+    text-decoration: none;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: D65127;
+    font-family: freight-display-pro, serif;
+    font-weight: 500;
+    font-style: italic;
+    font-size: 2em;
+  }
+  
+  /* selected link */
+  a:active {
+    color: white;
+    text-decoration: none;
   }

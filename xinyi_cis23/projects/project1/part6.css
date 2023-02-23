@@ -14,3 +14,32 @@ section{
     padding: 2vh;
     max-height: 5vh;
   }
+
+  .grid-container{
+    display:grid;
+    padding-left: 8%;
+    padding-right: 8%;
+    grid-template-columns:repeat(8, 1fr);
+    grid-template-rows: min-content;
+}
+
+.barthes{
+    grid-column: 1/span 9;
+    grid-row: 1/1;
+}
+
+.bachelard {
+    grid-column: 1/span 9;
+    grid-rows: 2/2;
+}
+
+#quote{
+    font-size: 1emm;
+    line-height: 250%;
+    text-align: right;
+}
+
+.afraid {
+    grid-column: 1/ span 9;
+    grid-rows: 3/3;
+}
