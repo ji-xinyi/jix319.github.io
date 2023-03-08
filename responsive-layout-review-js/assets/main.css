@@ -1,0 +1,234 @@
+/*this tells the browser to account for any border and padding in the values you specify for an element's width and height.*/
+* {box-sizing:  border-box;}
+
+body {
+  font-family: 'Space Mono', monospace;
+  font-weight:  400;
+  margin:  0;
+}
+
+li {
+  margin-right:  30px;
+}
+
+img {
+  width:  100%;
+  height:  auto;
+}
+
+footer {
+  padding:  30px;
+  text-align:  center;
+}
+
+footer a {
+  color:  black;
+  text-decoration: none;
+  border-bottom: 1px dotted;
+}
+
+footer a:hover{
+  border-bottom: 1px solid;
+}
+
+/*First steps*/
+header {
+  /*background-color:  blue;*/
+  height: 50px;
+  position: fixed;
+  top:  20px;
+  width:  100vw;
+  color:  white;
+  display:  flex;
+  justify-content:  center;
+  align-items:  center;
+}
+
+.nav a {
+  background-color: rgba(255,255,255,.5);
+  color:  #fb01a3;
+  padding: 2px 10px;
+  border-radius: 10px;
+  margin-right: 10px;
+  text-decoration:  none;
+}
+
+
+.nav a:hover{
+  background-color: rgba(255,255,255,1);
+  cursor:  pointer;
+  text-decoration: none;
+}
+
+/*remove margin on third element*/
+.nav a:nth-child(3){
+  margin-right:  0;
+}
+
+
+/*set each section to be the height of the viewport, also use flexbox for whole thing*/
+section {
+    margin-bottom: 0;
+    display:  flex;
+    padding:  50px;
+}
+
+
+.intro {
+  /*background-color: #E40893;*/
+  background: linear-gradient(90deg, #ffdb01, #fb01a3);
+  background-size: 400% 400%;
+  color:  white;
+  justify-content:  center;
+  align-items:  center;
+  height:  100vh;
+  -webkit-animation: laurieGrad 5s ease infinite;
+  -moz-animation: laurieGrad 5s ease infinite;
+  animation: laurieGrad 5s ease infinite;
+}
+
+
+@-webkit-keyframes laurieGrad {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes laurieGrad {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes laurieGrad {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+h1 {
+  font-family: 'Archivo', sans-serif;
+  font-weight:  normal;
+  font-size:  10vw;
+  text-transform:  uppercase;
+  letter-spacing: 3px;
+  margin: 0;
+}
+
+h2 {
+  font-weight: 700;
+}
+
+#about {
+  background-color:  #ffdb01;
+}
+
+.column-1, .column-2 {
+  width:  50%;
+}
+
+.column-1 {
+  padding-right:  100px;
+}
+
+#discog {
+  background-color:  #fb01a3;
+  flex-direction:  column;
+}
+
+ul {
+  list-style-type: none;
+}
+
+
+li {
+  margin-bottom: 10px;
+  padding:  10px;
+  border-bottom:  2px dotted black;
+}
+
+.disco-title {
+  font-weight:  700;
+}
+
+
+/*ADD STYLES FOR MOBILE NAV*/
+
+.mobile-nav {
+  height:  100vh;
+  width:  100vw;
+  background-color: white;
+  z-index: 1;
+  display:  flex;
+  flex-direction:  column;
+  align-items: center;
+  justify-content: center;
+}
+
+.mobile-nav a {
+  color:  black;
+}
+
+.close {
+  margin-bottom:  50px;
+  background-color: #ffdb01;
+}
+
+
+.close:hover{
+  cursor:  pointer;
+}
+
+.show {
+  display:  flex;
+}
+
+.hide {
+  display: none;
+}
+
+.mobile-nav-button {
+  display:  none;
+}
+
+.mobile-nav-button:hover {
+  cursor: pointer;
+}
+
+/* Media Query for mobile styles*/
+@media only screen and (max-width:  800px) {
+.nav {
+  display:  none;
+}
+
+.mobile-nav-button {
+  display:  inline-block;
+  z-index:  1;
+  color:  #fb01a3;
+  padding: 5px 10px;
+  border-radius: 10px;
+  margin-right: 10px;
+  text-decoration:  none;
+}
+
+section {
+    padding: 25px;
+  }
+  h1 {
+    font-size: 6vh;
+  }
+
+#about, #career {
+  flex-direction:  column;
+}
+
+.column-1, .column-2 {
+  width:  100%;
+}
+
+.column-1 {
+  padding-right:  0;
+  padding-bottom:  50px;
+}
+ul {
+  padding: 0;
+}
+}

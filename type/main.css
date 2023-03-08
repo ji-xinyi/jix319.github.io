@@ -1,0 +1,40 @@
+@font-face {
+    font-family: 'burgess-regular';
+    src: url('fonts/burgess-regular.eot');
+    src: url('fonts/burgess-regular.eot?#iefix') format('embedded-opentype'),
+         url('fonts/burgess-regular.woff') format('woff'),
+         url('fonts/burgess-regular.woff2') format('woff2'),
+         url('fonts/burgess-regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Big Caslon FB';
+    src: url('fonts/BigCaslonFB-Black.woff2') format('woff2'),
+        url('fonts/BigCaslonFB-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+
+
+body {
+	font-family: 'Big Caslon FB', serif;
+}
+
+
+h1 {
+	font-size: 50px;
+}
+
+h2 {
+	font-size: 45px;
+}
+
+h1, h2 {
+	font-weight: 400;
+}

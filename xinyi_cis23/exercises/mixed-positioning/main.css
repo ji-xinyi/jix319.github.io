@@ -1,0 +1,170 @@
+body {
+  background-color:#4d00d5;
+  color:white;
+  font-family: 'Archivo Black', sans-serif;
+}
+
+.wrapper {
+  display:flex;
+  flex-direction:column;
+/*  justify-content:center;*/
+  align-items:center;
+}
+
+h1 {
+  font-size:25vw;
+  text-shadow: 0px 4px 18px rgba(0,0,0,0.5);
+  text-transform:uppercase;
+  font-weight:normal;
+}
+img {
+  max-width:75px;
+}
+
+.lisa {
+  position:relative;
+  display:flex;
+  justify-content:center;
+  align-items:baseline;
+/*  background-color:orange;*/
+}
+
+.lisa-text {
+  max-width:20vw;
+  top:0;
+/*  background-color:pink;*/
+}
+.lisa-text:nth-child(1) {
+/*  background-color:blue;*/
+}
+
+.lisa-text:nth-child(2) {
+/*  background-color:red;*/
+}
+
+.lisa-text:nth-child(3) {
+/*  background-color:cyan;*/
+}
+
+.lisa-text:nth-child(4) {
+/*  background-color:magenta;*/
+}
+
+.lisa img {
+  position:absolute;
+/*  top:50%;*/
+}
+
+.love {
+  left: 0;
+  top:50%;
+/*  border:2px solid pink;*/
+}
+
+.smileyplanet {
+  left:20%;
+  top:60%;
+/*  border:2px solid blue;*/
+}
+
+.sphere {
+  left:32%;
+  top:35%;
+/*  border:2px solid red;*/
+
+}
+
+.heart {
+  top:50%;
+  left:50%;
+/*  border:2px solid green;*/
+}
+
+.flower {
+  top: 35%;
+  left:60%;
+/*  border:2px solid purple;*/
+
+}
+
+.ufo {
+  top: 45%;
+  left:75%;
+/*  border:2px solid magenta;*/
+
+}
+
+.aliencar {
+  left:50%;
+  top:50%;
+/*  border:2px solid cyan;*/
+}
+
+
+.burst {
+  left:92%;
+  top:55%;
+/*  border:2px solid navy;*/
+}
+
+
+
+
+@media (max-width: 700px) {
+/* if we change the img size to be smaller, say 50px, we can call it a day, but lets make it bigger and make a new layout */
+img {
+  max-width:80px;
+}
+/*change to column layout, adjust positioning of each item*/
+h1 {
+  font-size:50vw;
+}
+
+.lisa {
+  flex-direction:column;
+}
+
+.love {
+  top:10%;
+}
+
+.smileyplanet {
+  left:35%;
+  top:15%;
+}
+
+.sphere {
+  left:5%;
+  top:35%;
+}
+
+.heart {
+  top:25%;
+  left:10%;
+}
+
+.flower {
+  top: 40%;
+  left:22%;
+}
+
+.ufo {
+  top: 50%;
+  left:0;
+
+}
+
+.aliencar {
+  left:65%;
+  top:65%;
+}
+
+
+.burst {
+  left:95%;
+  top:86%;
+}
+
+
+
+}

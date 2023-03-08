@@ -1,0 +1,34 @@
+ 
+body {
+    background-color: lavender;
+  }
+  
+  div {
+    width: 500px;
+    height: 200px;
+  }
+  
+  .static {
+    background-color: blue;
+    position: static;
+  }
+  
+  .relative {
+    background-color: yellow;
+    position: relative;
+  }
+  
+  .fixed {
+    background-color: purple;
+    position: fixed;
+  }
+  
+  .absolute {
+    background-color: green;
+    position: absolute;
+  }
+  
+  .sticky {
+    background-color: red;
+    position: sticky;
+  }
