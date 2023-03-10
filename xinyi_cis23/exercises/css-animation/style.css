@@ -1,0 +1,56 @@
+body{
+    font-size: 72px;
+    color: red;
+    font-family: sans-serif;
+    font-weight: 600;
+    }
+
+
+@keyframes smileyspin {
+    0% {
+      transform: rotate(0turn);
+      fill: #6d79cd;
+    }
+    100% {
+      transform: rotate(1turn);
+    }
+  }
+
+  @keyframes smileyfill {
+    0% {
+        fill: default;
+    }
+    100%{
+        fill: #6d79cd;
+    
+    }
+    
+  }
+  
+  #smiley{
+    animation: smileyspin 5s ease-out infinite, smileyfill 6s,ease-out infinite;
+    height:500px;
+  }
+
+#smiley:hover{
+    animation-play-state: paused
+}
+
+@keyframes spinType {
+    0% {
+      transform: rotate(0.5turn);
+    }
+    50% {
+      transform: rotate(0.75turn);
+    }
+    100% {
+      transform: rotate(1turn);
+    }
+  }
+
+  .item {
+    animation: spinType 0.5s;
+    animation-delay: 0.5s;
+    animation-iteration-count: infinite;
+
+  }
