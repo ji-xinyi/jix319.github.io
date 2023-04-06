@@ -1,0 +1,45 @@
+/*body{ 
+    background-color: yellow;
+}
+
+.special{
+    font-family: Helvetica, sans-serif; 
+    font-size: 100px;
+    color: red;
+}*/
+
+
+body {
+  background-color:  black;
+}
+
+section {
+  display:  flex;
+  flex-direction:  column;
+  justify-content: center;
+  align-items:  center;
+  height:  100vh;
+}
+
+.button {
+  padding: 20px 50px;
+  border-radius: 30px;
+  background-color:  white;
+  color:  black;
+  font-size:  60px;
+  font-size: 20px;
+  text-align:  center;
+  transition:  all 100ms;
+}
+
+.light{
+    background-color: gold;
+}
+.buttonOn{
+    background-color: black;
+    color: white;
+}
+.button:hover {
+  background-color: #DEB887;
+  cursor:  pointer;
+}

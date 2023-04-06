@@ -1,0 +1,119 @@
+[
+	{
+		"title": "Fear and Desire",
+		"year": 1952,
+		"alsoWriter" : false,
+		"posterImage": "https://upload.wikimedia.org/wikipedia/en/f/f7/Fear_and_Desire_Poster.jpg",
+		"runTime": "61 minutes",
+		"imdbLink": "https://www.imdb.com/title/tt0045758",
+		"imdbRating": 5.3
+	},
+	{
+		"title": "Killer's Kiss",
+		"year": 1955,
+		"alsoWriter" : false,
+		"posterImage": "https://upload.wikimedia.org/wikipedia/en/a/a6/KillersKissPoster.jpg",
+		"runTime": "67 minutes",
+		"imdbLink": "https://www.imdb.com/title/tt0048254",
+		"imdbRating": 6.6
+	},
+	{
+		"title": "The Killing",
+		"year": 1956,
+		"alsoWriter" : true,
+		"posterImage": "https://upload.wikimedia.org/wikipedia/en/d/d6/TheKillingPosterKubrick.jpg",
+		"runTime": "84 minutes",
+		"imdbLink": "https://www.imdb.com/title/tt0049406",
+		"imdbRating": 7.9
+	},
+	{
+		"title": "Paths of Glory",
+		"year": 1957,
+		"alsoWriter" : true,
+		"posterImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Paths_of_Glory_%281957_poster%29.jpg/316px-Paths_of_Glory_%281957_poster%29.jpg",
+		"runTime": "88 minutes",
+		"imdbLink": "https://www.imdb.com/title/tt0050825",
+		"imdbRating": 8.4
+	},
+	{
+		"title": "Spartacus",
+		"year": 1960,
+		"alsoWriter" : false,
+		"posterImage": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Spartacus_-_1960_-_poster.png",
+		"runTime": "197 minutes",
+		"imdbLink": "https://www.imdb.com/title/tt0054331",
+		"imdbRating": 7.9
+	},
+	{
+		"title": "Lolita",
+		"year": 1962,
+		"alsoWriter" : true,
+		"posterImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Lolita_%281962_film_poster%29.jpg/310px-Lolita_%281962_film_poster%29.jpg",
+		"runTime": "152 minutes",
+		"imdbLink": "https://www.imdb.com/title/tt0056193",
+		"imdbRating": 7.5
+	},
+	{
+		"title": "Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb",
+		"year": 1964,
+		"alsoWriter" : true,
+		"posterImage": "https://upload.wikimedia.org/wikipedia/en/e/e6/Dr._Strangelove_poster.jpg",
+		"runTime": "94 minutes",
+		"imdbLink": "https://www.imdb.com/title/tt0057012",
+		"imdbRating": 8.4
+	},
+	{
+		"title": "2001: A Space Odyssey",
+		"year": 1968,
+		"alsoWriter" : true,
+		"posterImage": "https://upload.wikimedia.org/wikipedia/en/1/11/2001_A_Space_Odyssey_%281968%29.png",
+		"runTime": "143 minutes",
+		"imdbLink": "https://www.imdb.com/title/tt0062622",
+		"imdbRating": 8.3
+	},
+	{
+		"title": "A Clockwork Orange",
+		"year": 1971,
+		"alsoWriter" : true,
+		"posterImage": "https://upload.wikimedia.org/wikipedia/en/7/73/A_Clockwork_Orange_%281971%29.png",
+		"runTime": "136 minutes",
+		"imdbLink": "https://www.imdb.com/title/tt0066921",
+		"imdbRating": 8.3
+	},
+	{
+		"title": "Barry Lyndon",
+		"year": 1975,
+		"alsoWriter" : true,
+		"posterImage": "https://upload.wikimedia.org/wikipedia/en/e/ee/Barry_Lyndon_A.jpg",
+		"runTime": "187 minutes",
+		"imdbLink": "https://www.imdb.com/title/tt0072684",
+		"imdbRating": 8.1
+	},
+	{
+		"title": "The Shining",
+		"year": 1980,
+		"alsoWriter" : true,
+		"posterImage": "https://upload.wikimedia.org/wikipedia/en/1/1d/The_Shining_%281980%29_U.K._release_poster_-_The_tide_of_terror_that_swept_America_IS_HERE.jpg",
+		"runTime": "144 minutes",
+		"imdbLink": "https://www.imdb.com/title/tt0081505",
+		"imdbRating": 8.4
+	},
+	{
+		"title": "Full Metal Jacket",
+		"year": 1987,
+		"alsoWriter" : true,
+		"posterImage": "https://upload.wikimedia.org/wikipedia/en/9/99/Full_Metal_Jacket_poster.jpg",
+		"runTime": "116 minutes",
+		"imdbLink": "https://www.imdb.com/title/tt0093058",
+		"imdbRating": 8.3
+	},
+	{
+		"title": "Eyes Wide Shut",
+		"year": 1999,
+		"alsoWriter" : true,
+		"posterImage": "https://upload.wikimedia.org/wikipedia/en/7/73/Eyes_Wide_Shut_%281999%29.png",
+		"runTime": "159 minutes",
+		"imdbLink": "https://www.imdb.com/title/tt0120663",
+		"imdbRating": 7.5
+	}
+]

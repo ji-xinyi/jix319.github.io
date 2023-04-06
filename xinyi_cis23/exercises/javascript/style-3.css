@@ -1,0 +1,72 @@
+
+/*body {
+    background-color:  black;
+    color:  white;
+    font-family: arial;
+  }
+  
+  .wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  h1 {
+    font-weight:  normal;
+  }
+  
+  .button {
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px 40px;
+    color: black;
+    font-size: 36px;
+  }
+  
+  .button:hover {
+    opacity: .8;
+    cursor: pointer;
+    transition: 90ms ease;
+  }*/
+
+
+  body {
+    background-color:  #f9d2f4;
+    margin: 0;
+  }
+  
+  .garden {
+    margin: 0 auto;
+  }
+  
+  .flower {
+    opacity: .5;
+    mix-blend-mode: difference;
+    color: #5F1B7A;
+    font-size: 10vw;
+    font-family: arial;
+    display: flex;
+    padding: 20px;
+  }
+  
+  
+  .Dahlia {
+    background-color: blue;
+  }
+  
+  .Poppy {
+    background-color: DarkCyan;
+  }
+  
+  .Snapdragon {
+    background-color:  CornflowerBlue;
+  }
+  
+  .Anthurium {
+    background-color: lightcyan;
+  }
+  
+  .Rose {
+    background-color: DodgerBlue;
+  }

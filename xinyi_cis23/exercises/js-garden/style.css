@@ -1,0 +1,48 @@
+
+body {
+    background-color:  #bd367a;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  .garden {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .flower {
+    opacity: .5;
+    mix-blend-mode: color-burn;
+    color: #5F1B7A;
+    font-size: 36px;
+    font-family: arial;
+    border-radius: 100px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .flower1 {
+      background-color: red;
+  }
+  
+  .flower2 {
+    background-color: green;
+  }
+  
+  .flower3 {
+    background-color: purple;
+  }
+  
+  .flower4 {
+    background-color: yellow;
+  }
+  
+  .flower5 {
+    background-color: blue;
+  }
+  
+  .flower6 {
+    background-color: orange;
+  }
