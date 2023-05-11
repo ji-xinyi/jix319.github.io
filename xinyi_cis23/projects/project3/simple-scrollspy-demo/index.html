@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Simple Scrollspy Demo</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="app">
+      <div class="fixed-container">
+        <div class="chart-container">
+          <div id="chart-sections">
+            <div class="chart-section active" href="#section-1">Section 1</div>
+            <div class="chart-section" href="#section-2">Section 2</div>
+            <div class="chart-section" href="#section-3">Section 3</div>
+            <div class="chart-section" href="#section-4">Section 4</div>
+          </div>
+        </div>
+      </div>
+
+      <section class="section scrollspy" id="section-1">Section 1</section>
+      <section class="section scrollspy" id="section-2">Section 2</section>
+      <section class="section scrollspy" id="section-3">Section 3</section>
+      <section class="section scrollspy" id="section-4">Section 4</section>
+    </div>
+
+    <!-- https://github.com/huukimit/simple-scrollspy" -->
+    <script async src="simple-scrollspy.min.js"></script>
+    <script defer="">
+      window.onload = function () {
+        scrollSpy('#chart-sections', {
+          sectionClass: '.scrollspy',
+          menuActiveTarget: '.chart-section',
+
+          // Each section activates 100px before hitting the top of the window.
+          offset: 100,
+          smoothScroll: true,
+          smoothScrollBehavior: function(element) {
+            element.scrollIntoView({ behavior: 'smooth' })
+          }
+        })
+      }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,14 @@
+video {
+    max-width: 50vw;
+    
+}
+
+img{
+    max-width: 50vw;
+}
+
+#header{
+    display: flex;
+    flex-flow: nowrap;
+    align-items: end;
+}
