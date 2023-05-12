@@ -1,51 +1,106 @@
 @charset "UTF-8";
 
 body {
-    background: radial-gradient(63.99% 50% at 50% 50%, rgba(255, 153, 1, 0.35) 0%, rgba(255, 255, 255, 0) 100%), linear-gradient(180deg, rgba(129, 12, 12, 0.95) 0%, rgba(27, 82, 188, 0.72) 56.9%, rgba(34, 9, 58, 0.83) 100%);
 
-    background-color: #1B52BC;
-    /*linear-gradient(180deg, rgba(129, 12, 12, 0.95) 0%, rgba(27, 82, 188, 0.72) 56.9%, rgba(34, 9, 58, 0.83) 100%);*/
     height: fill;
     width: 100vw;
     margin: 0;
     z-index:-1;
     background-attachment: fixed;
+    background-color: midnightblue;
 }
+
+#header{ 
+    margin-top: 10%;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    grid-row: 1/ span 4;
+    grid-column: 1/ span 4;
+    padding: 20px; 
+    width: 45vw;
+    height: 80vh;
+    resize: horizontal;
+  overflow: auto;
+    background-color: palevioletred ;
+    border-radius: 60px/ 60px;
+}
+
 
 h1{
-    position: absolute;
-    width: 131px;
-    height: 154px;
-    left: 122px;
-    top: 40px;
-    align-items: top;
-
-    font-family: 'Roslindale';
-    font-style: italic;
-    font-weight: 400;
-    font-size: 128px;
-    line-height: 154px;
-/* identical to box height */
-    color: #FFFFFF;
-}
-
-marquee {
-    /* Welcome to Xinyi’s Github Repository! */
-    position: absolute;
-    width: 1626px;
-    height: 115px;
-    left: 122px;
-    top: 241px;
-
-    font-family: 'Roslindale';
+    font-family: paralucent, sans-serif;
+    font-weight: 500;
     font-style: normal;
-    font-weight: 400;
-    font-size: 96px;
-    line-height: 115px;
-
-color: #FFFFFF;
-
+    font-size: 6em;
+    color: white;
+    line-height: 80%;
 }
 
+h2{
+    font-family: paralucent, sans-serif;
+font-weight: 500;
+font-style: italic;
+font-size: 6em;
+color: white;
+line-height: 80%;
+}
+
+main{
+ display: grid;
+ grid-template-columns: repeat (8, 15vw);
+ grid-template-rows: auto;
+margin-left: 10%;
+margin-left: 10%;
+}
+
+h3{
+    font-family: paralucent, sans-serif;
+font-weight: 300;
+font-style: normal;
+color: white;
+font-size: 3em;
+}
+
+li{
+    font-family: fields-display, sans-serif;
+font-weight: 400;
+font-style: normal;
+color: salmon;
+font-size: 1em;
+}
+
+#exercises{
+    padding-top: 5vh; 
+    grid-column: 5/span 8 ;
+    grid-row: 1/ span 1 ;
+}
+
+#projects {
+    grid-column: 5/ span 8;
+    grid-row: 2/2;
+}
+
+#lab{ 
+    grid-column: 5/ span 8;
+    grid-row: 3/3;
+}
+
+/* unvisited link */
+a:link {
+    color: salmon;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: white;
+  }
+  
+  /* mouse over link */
+  a:hover {
+transform:scale(120%)  }
+  
+  /* selected link */
+  a:active {
+    background: white;
+  }
 
 
