@@ -1,0 +1,96 @@
+
+body{
+    background-color: antiquewhite;
+    background-attachment: scroll;
+}
+
+
+h1{
+    font-family: lores-21-serif, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size:  5em;
+    color: navy;
+    line-height: 40%;
+    text-align: center;
+}
+
+h3{
+    font-family: lores-21-serif, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size:  2em; 
+}
+
+p{
+    font-family: freight-big-pro, serif;
+font-weight: 400;
+font-style: normal;
+font-size: 1.5em;
+text-align: justify;
+}
+
+li{
+    font-family: freight-big-pro, serif;
+font-weight: 400;
+font-style: normal;
+font-size: 1.5em;
+text-align: justify;
+}
+h4{
+    font-family: larken, sans-serif;
+font-weight: 300;
+font-style: italic;
+font-size: 3em;
+color: darkolivegreen;
+}
+
+h5{
+    font-family: larken, sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 1em;
+    color: gray;
+    text-align: right;
+}
+
+#student{
+    font-family: freightbigcmp-pro, serif;
+    font-weight: 300;
+    font-style: italic;
+font-size: 10em;
+color: red;
+text-align: center;
+line-height: 30%;
+}
+
+#subhead{
+    font-family: larken, sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    font-size:  3em;
+    color: slategray;
+    text-align: center;
+}
+
+.grid-container{
+    display:grid;
+    padding-left: 8%;
+    padding-right: 8%;
+    grid-template-columns:repeat(8, 1fr);
+    grid-template-rows: min-content;
+}
+
+.bubblechart{ 
+    grid-column: 1/ span 9;
+    grid-row: 1/1;
+}
+
+.caption{
+    grid-column: 1/ span 9;
+    grid-row: 2/2; 
+}
+
+.article{
+    grid-column: 2/ span 8; 
+}
